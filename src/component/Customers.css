@@ -1,0 +1,30 @@
+﻿.back{
+   background-image:url(/Images/Background/customers-background.png);
+   padding-bottom: 50px;
+}
+.pad{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.white{
+    background-color: white;
+    margin-top: 20px;
+}
+@media (min-width:768px){
+  .white {
+    width:500px;
+    padding-top: 30px;
+    margin-left:90px;
+  }
+}
+@media(min-width:991px){
+      .ss{
+    margin-left:280px;
+    margin-top:50px;
+  }
+  .white{
+    margin-left:400px;
+    margin-top:40px;
+  }
+}

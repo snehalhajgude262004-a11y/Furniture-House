@@ -1,0 +1,112 @@
+﻿.hero{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(/Images/Background/herobackground.png) ;
+    background-position: center;
+    background-size: cover;
+    margin-bottom:50px;
+}
+.hero h1{
+    text-align: center;
+    padding-bottom:80px;
+    text-transform: uppercase;
+    color: white;
+    font-size:18px;
+}
+.hero h2{
+    text-align:center;
+    padding-top:80px;
+    text-transform: uppercase;
+    color: white;
+    font-size:15px;
+}
+.herolist img{
+    background-color: rgb(220, 219, 219);
+    border:1ps solid rgb(205, 203, 203);
+    border-radius: 50%;
+    padding:30px;
+    margin-bottom:10px;
+    margin-left:100px;
+    height:90px;
+    width:90px;
+    margin-top: 30px;
+}
+.herolist h3{
+    text-align: center;
+    font-weight: lighter;
+    font-size: medium;
+}
+.herolist p{
+    text-align: center;
+    padding:0px 20px 0 20px;
+}
+.banner1{
+   background-image: linear-gradient(rgba(244, 200, 170, 0.6), rgba(244,200,170,0.6)),url(/Images/Background/banner1.png);
+   background-size: cover;
+   height:180px;
+}
+.banner2{
+    background-image: url(/Images/Background/banner2.png);
+    height:180px;
+}
+.banner3{
+    background-image:linear-gradient(rgba(232, 209, 167, 0.8),rgba(232, 209, 167, 0.8)),url(/Images/Background/banner3.png) ;
+    height:180px;
+    background-size: cover;
+    text-align: center;
+}
+.line{
+    border:1px solid black;
+    width:80px;
+    margin-left:38% ;
+
+}
+@media(min-width:768px){
+    .line{
+    margin-left:32%;
+    width:60px;
+    }
+    .banner1 h3,.banner3 h3{
+        font-size:15px;
+    }
+    .banner1,.banner2,.banner3{
+        height:100px;
+    }
+    .hero{
+        height:360px;
+    }
+    .hero h1{
+        padding-top:10px ;
+        font-size: 25px;
+    }
+    .hero h2{
+        padding-top: 150px;
+        font-size:25px;
+    }
+    .herolist img{
+        margin-left:45px;
+    }
+}  
+@media(min-width:991px){
+    .banner1,.banner2,.banner3{
+        height:180px !important;;
+    }
+    .banner1 h3,.banner3 h3{
+        padding-top:80px !important;
+        font-size: large;
+    }
+    .line{
+        margin-left:120px ;
+    }
+    .hero{
+        height:730px;
+    }
+    .hero h2{
+        padding-top:300px;
+        font-size:40px ;
+    }
+    .hero h1{
+        font-size: 50px;
+    }
+    .herolist img{
+        margin-left:110px;
+    }
+}

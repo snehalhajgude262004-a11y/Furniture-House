@@ -1,0 +1,16 @@
+.slash{
+    width:90px;
+    border: 1px solid black;
+    margin:auto;
+}
+.dekstop img{
+    border:2px solid black;
+    margin:2px ;
+    width:150px;
+    margin-left:75px;
+}
+@media (min-width:768px){
+    .dekstop img{
+        margin-bottom:30px;
+    }
+}
