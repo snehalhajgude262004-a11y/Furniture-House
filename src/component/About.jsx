@@ -7,7 +7,7 @@ const About = () => {
       <div className="row align-items-center g-4">
         <div className="col-lg-6">
           <img
-            src="/Images/Illustration/o1.png"
+            src={`${import.meta.env.BASE_URL}Images/Illustration/o1.png`}
             alt="Furniture shopping at Furniture House"
             className="img-fluid rounded  aboutimg"
           />
@@ -47,7 +47,7 @@ const About = () => {
             </div>
           </div>
 
-          <a href="/Product" className="btn btn-success mt-3">
+         <a href="/Product" className="btn btn-success mt-3">
             Explore Products
           </a>
         </div>

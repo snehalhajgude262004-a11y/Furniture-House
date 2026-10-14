@@ -7,38 +7,38 @@ const products = [
     name: "Modern Sofa",
     category: "Living Room",
     price: "$450",
-    image: "/Images/Illustration/h1.png",
+   image: `${import.meta.env.BASE_URL}Images/Illustration/h1.png`,
   },
   {
     name: "Elegant Armchair",
     category: "Living Room",
     price: "$280",
-    image: "/Images/Illustration/h2.png",
+    image: `${import.meta.env.BASE_URL}Images/Illustration/h2.png`,
   },
   {
     name: "Classic Furniture",
     category: "Home Furniture",
     price: "$350",
-    image: "/Images/Illustration/h3.png",
+    image: `${import.meta.env.BASE_URL}Images/Illustration/h3.png`,
   },
   {
     name: "Designer Chair",
     category: "Living Room",
     price: "$220",
-    image: "/Images/Illustration/h4.png",
+    image: `${import.meta.env.BASE_URL}Images/Illustration/h4.png`,
   },
   {
     name: "Modern Home Decor",
     category: "Home Decor",
     price: "$180",
-    image: "/Images/Illustration/h5.png",
+    image: `${import.meta.env.BASE_URL}Images/Illustration/h5.png`,
   },
   {
     name: "Premium Furniture",
     category: "Home Furniture",
     price: "$520",
-    image: "/Images/Illustration/h6.png",
-  },
+    image: `${import.meta.env.BASE_URL}Images/Illustration/h6.png`,
+  }
 ];
 
 const Product = () => {
